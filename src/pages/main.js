@@ -1,4 +1,5 @@
-'use strict';
+
+const Main = () => {
 
 /*********************
  *	Helpers Code
@@ -219,4 +220,8 @@ var readyFunction = function readyFunction() {
 /**
  *  Launcher
  */
-DOMReady(readyFunction);
+  DOMReady(readyFunction);
+
+}
+  
+export default Main

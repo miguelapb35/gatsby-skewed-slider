@@ -25,6 +25,7 @@ body {
   height: 100vh;
   transition: transform 1350ms;
 }
+
 .slider-page--skew {
   overflow: hidden;
   position: absolute;
@@ -137,10 +138,8 @@ body {
   background-image: url("images/item15.jpg");
 }
 .js-scrolling__page-5 .slider-page--left .slider-page__content {
-  background-color: #282828;
-  min-height: 100vh;
+  background-color: white;
 }
 .js-scrolling__page-5 .slider-page--right .slider-page__content {
-  background-color: #282828;
-  min-height: 100vh;
+  background-color: white;
 }

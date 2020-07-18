@@ -15,7 +15,7 @@ import item11 from '../../public/images/item11.jpg'
 import item12 from '../../public/images/item12.jpg'
 import item13 from '../../public/images/item13.jpg'
 
-import './main'
+import Main from './main';
 import '../../src/index.css'
 
 
@@ -129,24 +129,24 @@ return (
     </div>
   </article>
 
-  <article class="js-scrolling__page js-scrolling__page-5">
-  <section class="main">
-    <div class="slider-page slider-page--left">
-      <h1>Trueque</h1>
-    </div>
-    <div class="slider-page slider-page--right">
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos omnis velit deleniti modi? Vitae doloribus repellendus consectetur qui, nulla fugit ea ullam debitis sequi animi dolorem aspernatur dolores dolorum voluptatibus!
-        Illo accusantium eligendi rem nulla consectetur iste necessitatibus numquam, cupiditate placeat optio animi earum error magnam repellat aut? Iure officiis minus deserunt consectetur. Quo inventore provident veniam aliquam earum amet.
-        Molestiae, commodi provident. Molestias consequuntur voluptas molestiae nisi enim repudiandae ea modi corporis maxime rem quae porro, nemo soluta ut libero perferendis? Iste aperiam qui ratione corporis totam fuga officiis.
-        Quam ipsum nam natus? Exercitationem minus vero sit iure, saepe quibusdam praesentium perspiciatis id mollitia alias. Optio quae vero iste architecto ea nemo ratione tempore cumque dignissimos, natus, eius delectus.
-        Quae nesciunt saepe omnis quaerat facere dolores ut at sed atque, eligendi earum enim voluptatem aliquid, vitae modi ullam minima voluptate iusto aperiam nemo? Id consequuntur magni impedit consequatur nam.
-      </p>
-    </div>
-  </section>
-  </article>
-</section>
-
+      <article class="js-scrolling__page js-scrolling__page-5">
+        <section class="">
+          <div class="slider-page slider-page--left">
+            <h1>Trueque</h1>
+          </div>
+          <div class="slider-page slider-page--right">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos omnis velit deleniti modi? Vitae doloribus repellendus consectetur qui, nulla fugit ea ullam debitis sequi animi dolorem aspernatur dolores dolorum voluptatibus!
+              Illo accusantium eligendi rem nulla consectetur iste necessitatibus numquam, cupiditate placeat optio animi earum error magnam repellat aut? Iure officiis minus deserunt consectetur. Quo inventore provident veniam aliquam earum amet.
+              Molestiae, commodi provident. Molestias consequuntur voluptas molestiae nisi enim repudiandae ea modi corporis maxime rem quae porro, nemo soluta ut libero perferendis? Iste aperiam qui ratione corporis totam fuga officiis.
+              Quam ipsum nam natus? Exercitationem minus vero sit iure, saepe quibusdam praesentium perspiciatis id mollitia alias. Optio quae vero iste architecto ea nemo ratione tempore cumque dignissimos, natus, eius delectus.
+              Quae nesciunt saepe omnis quaerat facere dolores ut at sed atque, eligendi earum enim voluptatem aliquid, vitae modi ullam minima voluptate iusto aperiam nemo? Id consequuntur magni impedit consequatur nam.
+            </p>
+          </div> 
+        </section>  
+      </article>
+    </section>
+    
 </div> 
 );
 }
