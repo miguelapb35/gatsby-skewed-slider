@@ -15,7 +15,7 @@ import item11 from '../../public/images/item11.jpg'
 import item12 from '../../public/images/item12.jpg'
 import item13 from '../../public/images/item13.jpg'
 
-import './main'
+//import './main'
 import '../../src/index.css'
 
 
